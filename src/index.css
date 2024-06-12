@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.app{
+    background-image: url('https://coursework.vschool.io/content/images/size/w2000/2015/06/lock.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

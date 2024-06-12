@@ -51,8 +51,8 @@ function App() {
   let passwordRef = useRef(null);
 
   return (
-    <>
-      <div className="w-full max-w-md mx-auto shadow-md rounded-lg px-4 py-3 my-8 text-orange-500 bg-gray-700">
+    <div className="app h-screen w-screen overflow-hidden flex items-center justify-center">
+      <div className="opacity-90 w-full space-y-7 max-w-md mx-auto shadow-md rounded-lg px-5 py-4  text-orange-500 bg-gray-700">
         <h1 className="text-white text-center text-xl my-3 font-bold">Password Generator</h1>
         <div className="flex shadow rounded-lg overflow-hidden mb-4">
           <input
@@ -68,7 +68,7 @@ function App() {
             onClick={copyToClipboard}
           >Copy</button>
         </div>
-        <div className="flex text-sm gap-x-2">
+        <div className="flex text-sm gap-x-2 py-3">
           <div className="flex items-center gap-x-1">
             <input
               type="range"
@@ -104,7 +104,7 @@ function App() {
 
         </div>
       </div>
-    </>
+    </div>
   )
 }
 
